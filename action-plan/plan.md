@@ -33,18 +33,21 @@
 **Tasks**: Examine the data preparation and architecture of each model produced by our group. Determine which strategy was most effective and draw conclusions about which methods work best. Then, build or modify an existing network with these conclusions in mind.
 
 **Resources**:
-- https://arxiv.org/abs/1712.04621
+- https://arxiv.org/abs/1712.04621 
+- https://pytorch.org/docs/stable/index.html
 
 ### Month 5
-**Goal**: Test and iterate this next frankensteined model. Work as a group to evaluate sucesses and shortcomings, then brainstorm ideas for improvement.
+**Goal**: Test and iterate this new frankensteined model. Improve performance as much as possible
 
-**Tasks**: 
+**Tasks**: Train and evaluate the model. Work as a group to evaluate sucesses and shortcomings, then brainstorm ideas for improvement. Continue to train 
 
 **Resources**:
+- https://pytorch.org/docs/stable/index.html
 
 ### Month 6
-**Goal**:
+**Goal**: Share the findings! Report back to the research advisor, and hopefully present it at an end-of-year conference!
 
-**Tasks**:
+**Tasks**: Create a slideshow/poster presentation to communicate our results.
 
 **Resources**:
+- https://slidesgo.com/dna
