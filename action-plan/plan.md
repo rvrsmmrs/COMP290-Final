@@ -1,9 +1,9 @@
 # Action Plan
 
 ### Month 1
-**Goal**: Create the first draft of the model (a cnn to locate ecDNA from imagry). Currently, I have about 70% completed, with a working (but basic) CNN. I would like to have a model ready for testing by the end of the month
+**Goal**: Format the data so that it can be used for training and testing. Also, create a data loader that applies transforms and performs other functions to artificially inflate the data set.
 
-**Tasks**: I have to finish formatting the data so that it is the correct size, apply some transforms to artificially inflate the data set, and create tensor representations of the location of each piece of ecDNA (currently, the center point of each is in a text file. I need to expand these single points into small circles to the model is better able to learn).
+**Tasks**: Finish formatting the data so that it is the correct size, apply transforms, and create tensor representations of the location of each piece of ecDNA (currently, the center point of each is in a text file. I need to expand these single points into small circles to the model is better able to learn).
 
 **Resources**:
 - https://pytorch.org/tutorials/beginner/basics/data_tutorial.html
@@ -11,4 +11,40 @@
 
 
 ### Month 2
-arqrttqerg
+**Goal**: Create the first draft of the model. Implement the U-net architecture and end with a working (but still rough) CNN.
+
+**Tasks**: Choose a combination of linear and non linear layers and create the forward meathod. Create a loss function, optimizer, and write the training function. Then, create a function to evaluate accuracy.
+
+**Resources**:
+- https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
+- https://pytorch.org/docs/stable/nn.html
+
+### Month 3
+**Goal**: Test the model and begin to iterate. Mess around with different combinations of layers, transforms, and circle radii to find what works best
+
+**Tasks**: Train the model using a GPU. Test the accuracy, then make changes to fix potential bugs or shortcomings. Continue to train and revise the model.
+
+**Resources**:
+- https://pytorch.org/docs/stable/nn.html
+
+### Month 4
+**Goal**: Confer with others in my research group and report on our findings. Piece together our methods and results to design a better nextwork.
+
+**Tasks**: Examine the data preparation and architecture of each model produced by our group. Determine which strategy was most effective and draw conclusions about which methods work best. Then, build or modify an existing network with these conclusions in mind.
+
+**Resources**:
+- https://arxiv.org/abs/1712.04621
+
+### Month 5
+**Goal**: Test and iterate this next frankensteined model. Work as a group to evaluate sucesses and shortcomings, then brainstorm ideas for improvement.
+
+**Tasks**: 
+
+**Resources**:
+
+### Month 6
+**Goal**:
+
+**Tasks**:
+
+**Resources**:
